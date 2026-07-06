@@ -1,0 +1,14 @@
+Types Of Languages:
+
+Procedural Language:
+	-> Specifies the a well-structured steps and procedures to compose a program.
+	-> Contains a systematic order of statements, functions and commands to complete task.
+
+Functional Language:
+	-> Writing a program in a pure functions i.e. never modify variables, but only create new ones as an output.
+	-> Used in situations where we have to perform lots of different operations on the same set of data, like ML.
+
+Object Oriented Language:
+	-> Revolves around objects.
+	-> Code + Data = Object.
+	-> Developed to make it easier to develop, debug, reuse, and maintain software.
