@@ -1,8 +1,13 @@
+import java.util.*;
 public class MaxInArray {
     public static void main(String[] args) {
-        int[] arr={1,2,3,4,5};
+        int[] arr=new int[5];
         int max=arr[0];
-        for(int i=1;i<arr.length;i++){
+        Scanner s=new Scanner(System.in);
+        for(int i=0;i<5;i++){
+            arr[i]=s.nextInt();
+        }
+        for(int i=1;i<5;i++){
             if(arr[i]>max){
                 max=arr[i];
             }
