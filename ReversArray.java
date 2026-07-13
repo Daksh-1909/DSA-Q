@@ -5,7 +5,7 @@ public class ReversArray {
         Scanner s=new Scanner(System.in);
         System.out.println("Enter 5 elements of array:");
 
-        for (int i=0; i<5;i++) {
+        for (int i=0;i<5;i++) {
             arr[i]=s.nextInt();
         }
         for (int i=0; i<arr.length/2;i++) {
@@ -14,7 +14,7 @@ public class ReversArray {
             arr[arr.length-1-i]=temp;
         }
         System.out.println("Reversed array:");
-        for (int i=0; i<arr.length;i++) {
+        for (int i=0;i<arr.length;i++) {
             System.out.print(arr[i] + " ");
         }
 
