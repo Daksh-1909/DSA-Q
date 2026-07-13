@@ -2,8 +2,9 @@ import java.util.*;
 public class MaxInArray {
     public static void main(String[] args) {
         int[] arr=new int[5];
-        int max=arr[0];
+        int max=0;
         Scanner s=new Scanner(System.in);
+        System.out.println("Enter 5 elements of array:");
         for(int i=0;i<5;i++){
             arr[i]=s.nextInt();
         }
