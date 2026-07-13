@@ -8,7 +8,7 @@ public class MaxInArray {
         for(int i=0;i<5;i++){
             arr[i]=s.nextInt();
         }
-        for(int i=1;i<5;i++){
+        for(int i=0;i<5;i++){
             if(arr[i]>max){
                 max=arr[i];
             }
