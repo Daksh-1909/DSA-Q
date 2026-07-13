@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class ReversArray {
     public static void main(String[] args) {
         int[] arr=new int[5];
