@@ -15,9 +15,9 @@ public class TwoSum {
         Map<Integer, Integer> numMap = new HashMap<>();
         boolean pairFound = false;
         for (int num : arr) {
-            int complement = target - num;
-            if (numMap.containsKey(complement)) {
-                System.out.println("Pair is: " + complement + ", " + num);
+            int temp = target - num;
+            if (numMap.containsKey(temp)) {
+                System.out.println("Pair is: " + temp + ", " + num);
                 pairFound = true;
             }
             numMap.put(num, 1); 
